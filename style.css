@@ -4,18 +4,28 @@
     background-color: rgb(64, 62, 62);
     
 }
-body{
+*{
     margin: 0;
 }
-h1 {
+h1, h2 {
     margin-top: 0;
     padding: 20px;
     font-size: 20px;
 }
+h2 {
+    border-bottom: 2px solid gray;
+}
 .cita{
-    text-decoration: underline;
-    text-transform: uppercase;
+    background-color: rgb(228, 222, 222);
+    padding: 1rem;
+    border-left: 6px solid gray;
+    color: gray;
+    
 }
 .parrafo{
-    margin: 30px;
+    margin: 20px;
+    text-decoration: underline;
+}
+span{
+    text-transform: uppercase;
 }
