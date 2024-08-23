@@ -1,11 +1,19 @@
+body{
+    margin: 0;
+    background-color: rgb(221, 221, 221);
+}
 .header{
     text-align: center;
     color: white;
     background-color: rgb(64, 62, 62);
     
 }
-*{
-    margin: 0;
+.contenedor{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 1rem;
+
 }
 h1, h2 {
     margin-top: 0;
@@ -20,7 +28,7 @@ h2 {
     padding: 1rem;
     border-left: 6px solid gray;
     color: gray;
-    
+    margin: 20px;
 }
 .parrafo{
     margin: 20px;
@@ -28,4 +36,15 @@ h2 {
 }
 span{
     text-transform: uppercase;
+}
+.caja{
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.3);
+}
+.caja2{
+    border: 6px solid black;
+    background-color: rgb(245, 186, 124);
 }
