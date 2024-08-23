@@ -1,0 +1,21 @@
+.header{
+    text-align: center;
+    color: white;
+    background-color: rgb(64, 62, 62);
+    
+}
+body{
+    margin: 0;
+}
+h1 {
+    margin-top: 0;
+    padding: 20px;
+    font-size: 20px;
+}
+.cita{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.parrafo{
+    margin: 30px;
+}
