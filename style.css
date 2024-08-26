@@ -73,3 +73,22 @@ span{
     padding-left: 20px;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    body{
+        background-color: rgb(30, 30, 61);
+    }
+    .contenedor{
+        margin: 10px;
+        padding: 0.5px;
+    }
+    h1, h2 {
+        font-size: 15px;
+    }
+    .relativo{
+        width: 30rem;
+    }
+    .absoluto{
+        width: 25rem;
+    }
+}
